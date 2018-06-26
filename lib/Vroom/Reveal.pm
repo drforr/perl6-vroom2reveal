@@ -19,18 +19,18 @@ Break up Vroom text and reformat it into Reveal.
 
 use v6;
 
-class Vroom::Reveal {
+class Vroom::Reveal:ver<0.0.2> {
 	method populate-template( $title, $author, @section ) {
-		qq:to[END];
+		my $header = Q:to[END];
 <!doctype html>
 <html lang="en">
 
   <head>
     <meta charset="utf-8">
     
-    <title>$title</title>
+    <title>{$title}</title>
     
-    <meta name="author" content="$author">
+    <meta name="author" content="{$author}">
     
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
