@@ -1,0 +1,32 @@
+{
+   "meta6" : "0",
+   "tags" : [
+		"Vroom",
+		"HTML",
+		"Reveal.js"
+   ],
+   "provides" : {
+   },
+   "test-depends" : [
+      "Test"
+   ],
+   "support" : {
+      "source" : "https://github.com/drforr/perl6-vroom2reveal"
+   },
+   "perl" : "6.c",
+   "build-depends" : [],
+   "test-depends" : [
+   ],
+   "auth" : "github:drforr",
+   "source-url" : "https://github.com/drforr/perl6-vroom2reveal.git",
+   "depends" : [
+       "Test::META"
+   ],
+   "name" : "Vroom::Reveal",
+   "authors" : [
+      "Jeffrey Goff <drforr@pobox.com>"
+   ],
+   "version" : "0.0.5",
+   "license" : "Artistic",
+   "description" : "Convert Vroom files to Reveal.js format"
+}
